@@ -105,6 +105,12 @@ body {
 			padding: 1.33%;
 			width: 30%;
 		}
+
+		.icon_menu .thumbnail img{
+			margin: auto;
+			width: 10%;
+		}
+
 		.thumbnail img:hover {
 			background-color: orange;
 			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
