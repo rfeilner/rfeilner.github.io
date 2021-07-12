@@ -99,9 +99,14 @@ body {
 			text-align: center;
 		}
 
-
-		.icon_menu .thumbnail img {
+		.icon_menu {
 			margin: auto;
+		}
+
+		.menu_icon img {
+			background-color: black;
+			background-image: radial-gradient(black, #404040, black);
+			padding: 1%;
 			width: 10%;
 		}
 
@@ -112,14 +117,6 @@ body {
 			padding: 1.33%;
 			width: 30%;
 		}
-
-
-		.icon_menu .thumbnail img {
-			margin: auto;
-			width: 10%;
-		}
-
-
 		.thumbnail img:hover {
 			background-color: orange;
 			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
