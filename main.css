@@ -109,7 +109,12 @@ body {
 			padding: 1%;
 			width: 10%;
 		}
-
+		.menu_icon img:hover {
+			background-color: orange;
+			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
+			background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+			cursor: pointer;
+		}
 
 		.thumbnail img{
 			background-color: black;
@@ -123,9 +128,9 @@ body {
 			background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
 			cursor: pointer;
 		}
-		#animation img:hover {
+		/*#animation img:hover {
 			src: url("Gallery Images/animation - Pyromaniac Symphony Image-600x600-darkened.png");
-		}
+		}*/
 		
 		
 		.icon img{
