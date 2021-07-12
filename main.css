@@ -107,6 +107,7 @@ body {
 			background-color: black;
 			background-image: radial-gradient(black, #404040, black);
 			padding: 1%;
+			vertical-align: middle;
 			width: 10%;
 		}
 		.menu_icon img:hover {
@@ -120,6 +121,7 @@ body {
 			background-color: black;
 			background-image: radial-gradient(black, #404040, black);
 			padding: 1.33%;
+			vertical-align: middle;
 			width: 30%;
 		}
 		.thumbnail img:hover {
