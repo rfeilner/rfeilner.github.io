@@ -155,7 +155,7 @@ body {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
-			min-height: 90%; 
+			min-height: 100%; 
 		}
 
 		@supports (-webkit-overflow-scrolling: touch) {
@@ -165,12 +165,12 @@ body {
 			}
 		}
 
-		@supports not (-webkit-overflow-scrolling: touch) {
+		/*@supports not (-webkit-overflow-scrolling: touch) {
 			/* CSS for other than iOS devices */
-			.no_parallax {
+			/*.no_parallax {
 				display: none;
 			}
-		}
+		}*/
 
 		/*#resume_parallax {
 		  background-image: url("paper-50x66.png");
