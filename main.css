@@ -99,6 +99,13 @@ body {
 			text-align: center;
 		}
 
+
+		.icon_menu .thumbnail img {
+			margin: auto;
+			width: 10%;
+		}
+
+
 		.thumbnail img{
 			background-color: black;
 			background-image: radial-gradient(black, #404040, black);
@@ -106,10 +113,12 @@ body {
 			width: 30%;
 		}
 
+
 		.icon_menu .thumbnail img {
 			margin: auto;
 			width: 10%;
 		}
+
 
 		.thumbnail img:hover {
 			background-color: orange;
