@@ -8,16 +8,6 @@ body {
 	/*background-image: url("flames.png");*/
 	margin: 0;
 }
-/*.framed {
-	background-color: rgba(244,244,256,0.975);
-	border-style: solid;
-	border-width: 5px; 
-	margin: 2.5%;
-	padding: 2.5%;
-	text-align: center; 
-	top: 0;
-	width: 87.5%;
-	}*/
 	.date {
 		float: right;
 		padding-left: 5%;
@@ -55,10 +45,6 @@ body {
 	}
 	.subsection{
 		margin-top: 12px;
-	}
-	.subsection ul{
-		/*float: left;*/
-		/*margin: 0;*/
 	}
 	/*.appended{
 		margin-left: 40px;
@@ -165,6 +151,14 @@ body {
 			/*background-size: 80%;*/
 			min-height: 90%; 
 		}
+/* Fix iOS issue where fixed background-attachments do not stay fixed */
+		.parallax {
+			background-attachment: scroll;
+		}
+		.parallax {
+			background-attachment: initial;
+		}
+
 
 		/*#resume_parallax {
 		  background-image: url("paper-50x66.png");
@@ -174,26 +168,8 @@ body {
 		#down_parallax {
 			background-image: url("scroll_down_sunset.png");
 		}
-		/*#animation_parallax {
-		  background-image: url("Gallery Images/animation - Pyromaniac Symphony Image.png");
-		}
-		#photo_editing_parallax{
-			background-image: url("Gallery Images/photo_editing - Studly - Antique.png");
-		}
-		#album_covers_parallax{
-			background-image: url("Gallery Images/album_covers - Dare Devil - The Blackout EP.png");
-		}
-		#surreal_parallax{
-			background-image: url("Gallery Images/surreal - Dead Teddy.png");
-		}
-		#glass_parallax{
-			background-image: url("Gallery Images/glass - Glass Florette.png");
-		}
-		#experimental_parallax{
-			background-image: url("Gallery Images/experimental - Magic Eye - Autostereoscope Example - Moon.png");
-			}*/
 		#animation_parallax_1 {
-		  background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
+			background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
 		}
 		#photo_editing_parallax_1{
 			background-image: url("Multimedia Art Portfolio/2. Photo Editing/a. Studly - Antique.png");
