@@ -191,6 +191,11 @@ body {
 			}
 		}
 
+		.spacer {
+			height: 2%;
+			background-color: white;
+		}
+
 		/*#resume_parallax {
 		  background-image: url("paper-50x66.png");
 		  min-height: 20%; 
