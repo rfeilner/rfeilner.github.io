@@ -108,6 +108,11 @@ body {
 		#name_logo img{
 			width: 100%;
 		}
+
+		#objective{
+			text-align: center;
+		}
+
 		.thumbnail img{
 			background-color: black;
 			background-image: radial-gradient(black, #404040, black);
@@ -145,9 +150,10 @@ body {
 		
 		.subheader{
 			/*background-image: radial-gradient(black, #404040, black);*/
-		    color: white;
+			color: white;
 			font-size: 3em;
-			padding: 10%;
+			margin: 0;
+			padding: 2%;
 			text-align: center; 
 		}
 		/*Parallax Scrolling*/
