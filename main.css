@@ -15,6 +15,18 @@
   background-size: cover;
 }*/
 
+@supports (-webkit-overflow-scrolling: touch) {
+  /* CSS specific to iOS devices */ 
+
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  /* CSS for other than iOS devices */
+	.parallax {
+		background-attachment: fixed;
+	}
+}
+
 body {
 	background-color: black;
 	/*background-color: #000000;*/
@@ -161,7 +173,7 @@ body {
 		}
 		/*Parallax Scrolling*/
 		.parallax {
-			background-attachment: fixed;
+			/*background-attachment: fixed;*/
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
