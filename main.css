@@ -106,7 +106,7 @@ body {
 			width: 30%;
 		}
 
-		.icon_menu.thumbnail img {
+		.icon_menu .thumbnail img {
 			margin: auto;
 			width: 10%;
 		}
