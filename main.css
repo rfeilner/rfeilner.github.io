@@ -1,32 +1,3 @@
-/* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. */
-/*body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url() no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
-@supports (-webkit-overflow-scrolling: touch) {
-  /* CSS specific to iOS devices */ 
-
-}
-
-@supports not (-webkit-overflow-scrolling: touch) {
-  /* CSS for other than iOS devices */
-	.parallax {
-		background-attachment: fixed;
-	}
-}
-
 body {
 	background-color: black;
 	/*background-color: #000000;*/
@@ -172,14 +143,35 @@ body {
 			text-align: center; 
 		}
 		/*Parallax Scrolling*/
+/* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. --unsupported feature on iOS devices*/
+		.no_parallax {
+			display: block;
+			margin: auto;
+			max-width: 100%; 
+			height: 50%; 
+		}
 		.parallax {
-			/*background-attachment: fixed;*/
+			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
-			/*background-size: 80%;*/
 			min-height: 90%; 
 		}
+
+		@supports (-webkit-overflow-scrolling: touch) {
+			/* CSS specific to iOS devices */ 
+			.parallax {
+				display: none;
+			}
+		}
+
+		@supports not (-webkit-overflow-scrolling: touch) {
+			/* CSS for other than iOS devices */
+			.no_parallax {
+				display: none;
+			}
+		}
+
 		/*#resume_parallax {
 		  background-image: url("paper-50x66.png");
 		  min-height: 20%; 
