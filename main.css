@@ -155,7 +155,7 @@ body {
 		
 		.subheader{
 			/*background-image: radial-gradient(black, #404040, black);*/
-			border-style: solid none none none
+			border-style: solid none none none;
 			color: white;
 			font-size: 3em;
 			margin: 0;
