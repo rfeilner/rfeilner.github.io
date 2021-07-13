@@ -177,7 +177,7 @@ body {
 			background-size: contain;
 			min-height: 100%; 
 			/*Fix to height 0*/
-			height: 2400px;
+			height: 1600px;
 		}
 
 		@supports (-webkit-overflow-scrolling: touch) {
