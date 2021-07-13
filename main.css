@@ -168,6 +168,7 @@ body {
 			display: block;
 			margin: auto;
 			max-width: 100%; 
+			/*Fix height 0 problem*/
 			/*height: 50%; */
 		}
 		.parallax {
@@ -176,7 +177,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			min-height: 100%; 
-			/*Fix to height 0*/
+			/*Fix height 0 problem*/
 			height: 1600px;
 		}
 
@@ -224,6 +225,9 @@ body {
 		}
 		#album_covers_parallax_3{
 			background-image: url("Multimedia Art Portfolio/3. Album Covers/c. Dare Devil - Self-titled.jpg");
+		}
+		#album_covers_parallax_4{
+			background-image: url("Multimedia Art Portfolio/3. Album Covers/d. 99Ninja.png");
 		}
 		#surreal_parallax_1{
 			background-image: url("Multimedia Art Portfolio/4. Surreal Art/a. Dead Teddy.png");
