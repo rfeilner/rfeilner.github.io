@@ -155,6 +155,7 @@ body {
 		
 		.subheader{
 			/*background-image: radial-gradient(black, #404040, black);*/
+			border-style: solid none none none
 			color: white;
 			font-size: 3em;
 			margin: 0;
@@ -181,9 +182,6 @@ body {
 			/* CSS specific to iOS devices */ 
 			.parallax {
 				display: none;
-			}
-			.subheader{
-				border-style: solid none none none
 			}
 		}
 
