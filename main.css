@@ -182,6 +182,9 @@ body {
 			.parallax {
 				display: none;
 			}
+			.subheader{
+				border-style: solid none none none
+			}
 		}
 
 		@supports not (-webkit-overflow-scrolling: touch) {
