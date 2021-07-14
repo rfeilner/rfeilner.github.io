@@ -1,267 +1,215 @@
 body {
 	background-color: black;
-	/*background-color: #000000;*/
-	/*border: 5%;*/
-	/*striped*/
-	/*background-image: repeating-linear-gradient(45deg, #000000, #101010, #000000 50px);*/
-	/*background-image: repeating-linear-gradient(45deg, #631a14, #670a0a, #4e0606 5px);*/
-	/*background-image: url("flames.png");*/
 	margin: 0;
 }
-	.date {
-		float: right;
-		padding-left: 5%;
-	}
-	.location {
-		float: left;
-	}
-	.citation {
-		/*float: left;*/
-		padding-left: 36px;
-		text-indent: -36px; 
-	}
-	.main_item{
-		/*
-		display: inline;
-		padding-top: 36px;
-		*/
-		/*float: left;*/
-		margin: 0;
-		padding-top: 24px;
-	}
-	section{
-		background-color: rgba(244,244,256,0.975);
-		border-style: solid;
-		border-width: 5px; 
-		margin: 2.5%;
-		padding: 2.5%;
-	}
-	.submain{
-		/*float: left;*/
-		/*margin: 0;*/
-	}
-	.submain_details{
-		height: 1.25em;
-	}
-	.subsection{
-		margin-top: 12px;
-	}
-	/*.appended{
-		margin-left: 40px;
-		}*/
-		.gpa{
-			float: left;
-		}
-		.credit_hours{
-			float: right;
-			padding-left: 5%;
-		}
-		
-		
-		div#education div span.date {
-			text-align: center;
-		}
-		
-		
-		#header {
-			/*border-image: repeating-linear-gradient(45deg, #631a14, #670a0a, #4e0606 5px) 15;*/
-			/*background-color: rgba(244,244,256,0.95);
-			border-style: solid;
-			border-width: 5px;
-			/*float: left;*/
-			/*margin: 2.5%;
-			padding: 2.5%;*/
-			/*box-sizing: border-box;
-			position: fixed;*/
-			text-align: center; 
-			/*top: 0;
-			width: 87.5%;*/
-			
-		}
-		/*#my_address {
-			float: left;
-			}
-			#my_email {
-			padding-left: 5%;
-			text-align: center;
-			}
-			#my_phone {
-			float: right;
-			padding-left: 5%;
+.date {
+	float: right;
+	padding-left: 5%;
+}
+.location {
+	float: left;
+}
+.citation {
+	padding-left: 36px;
+	text-indent: -36px; 
+}
+.main_item {
+	margin: 0;
+	padding-top: 24px;
+}
+section {
+	background-color: rgba(244,244,256,0.975);
+	border-style: solid;
+	border-width: 5px; 
+	margin: 2.5%;
+	padding: 2.5%;
+}
+.submain_details {
+	height: 1.25em;
+}
+.subsection {
+	margin-top: 12px;
+}
+.gpa {
+	float: left;
+}
+.credit_hours {
+	float: right;
+	padding-left: 5%;
+}
+div#education div span.date {
+	text-align: center;
+}
+#header {
+	text-align: center;
+}
+/*#my_address {
+	float: left;
+}
+#my_email {
+	padding-left: 5%;
+	text-align: center;
+}
+#my_phone {
+	float: right;
+	padding-left: 5%;
+}*/
+#name_logo img {
+	width: 100%;
+}
+#objective {
+	text-align: center;
+}
+.icon_menu {
+	margin: auto;
+}
+.menu_icon img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	padding: 1%;
+	vertical-align: middle;
+	width: 7.5%;
+}
+.menu_icon img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+.thumbnail img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	padding: 1.33%;
+	vertical-align: middle;
+	width: 30%;
+}
+.thumbnail img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+/*#animation img:hover {
+	src: url("Gallery Images/animation - Pyromaniac Symphony Image-600x600-darkened.png");
+}*/
+.icon img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	padding: 1.33%;
+	position: relative;
+}
+.icon img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+#resume a .message {
+	float: right;
+	padding: 0 5.5% 0 2%;
+	position: absolute;
+}
+.subheader {
+	border-style: solid none none none;
+	color: white;
+	font-size: 3em;
+	margin: 0;
+	padding: 2%;
+	text-align: center; 
+}
 
-			}*/
-
-		#name_logo img{
-			width: 100%;
-		}
-
-		#objective{
-			text-align: center;
-		}
-
-		.icon_menu {
-			margin: auto;
-		}
-
-		.menu_icon img {
-			background-color: black;
-			background-image: radial-gradient(black, #404040, black);
-			padding: 1%;
-			vertical-align: middle;
-			width: 7.5%;
-		}
-		.menu_icon img:hover {
-			background-color: orange;
-			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
-			background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
-			cursor: pointer;
-		}
-
-		.thumbnail img{
-			background-color: black;
-			background-image: radial-gradient(black, #404040, black);
-			padding: 1.33%;
-			vertical-align: middle;
-			width: 30%;
-		}
-		.thumbnail img:hover {
-			background-color: orange;
-			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
-			background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
-			cursor: pointer;
-		}
-		/*#animation img:hover {
-			src: url("Gallery Images/animation - Pyromaniac Symphony Image-600x600-darkened.png");
-		}*/
-		
-		
-		.icon img{
-			background-color: black;
-			background-image: radial-gradient(black, #404040, black);
-			padding: 1.33%;
-			position: relative;
-		}
-		.icon img:hover {
-			background-color: orange;
-			/*background-image: radial-gradient(#0028ff, #ffa000, #0028ff);*/
-			background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
-			cursor: pointer;
-		}
-		#resume a .message{
-			float: right;
-			padding: 0 5.5% 0 2%;
-			position: absolute;
-		}
-		
-		.subheader{
-			/*background-image: radial-gradient(black, #404040, black);*/
-			border-style: solid none none none;
-			color: white;
-			font-size: 3em;
-			margin: 0;
-			padding: 2%;
-			text-align: center; 
-		}
-		/*Parallax Scrolling*/
+/*Parallax Scrolling*/
 /* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. --unsupported feature on iOS devices*/
-		.no_parallax {
-			display: block;
-			margin: auto;
-			max-width: 100%; 
-			/*Fix height 0 problem*/
-			/*height: 50%; */
-		}
-		.parallax {
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: contain;
-			min-height: 100%; 
-			/*Fix height 0 problem*/
-			height: 1600px;
-		}
+.no_parallax {
+	display: block;
+	margin: auto;
+	max-width: 100%; 
+	/*Fix height 0 problem*/
+		/*height: 50%; */
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 100%; 
+	/*Fix height 0 problem*/
+		height: 1600px;
+}
 
-		@supports (-webkit-overflow-scrolling: touch) {
-			/* CSS specific to iOS devices */ 
-			.parallax {
-				display: none;
-			}
-		}
+/* CSS specific to iOS devices */ 
+@supports (-webkit-overflow-scrolling: touch) {
+	.parallax {
+		display: none;
+	}
+}
+/* CSS for other than iOS devices */
+@supports not (-webkit-overflow-scrolling: touch) {
+	.no_parallax {
+		display: none;
+	}
+}
 
-		@supports not (-webkit-overflow-scrolling: touch) {
-			/* CSS for other than iOS devices */
-			.no_parallax {
-				display: none;
-			}
-		}
+.spacer {
+	height: 2%;
+	background-color: white;
+}
 
-		.spacer {
-			height: 2%;
-			background-color: white;
-		}
-
-		/*#resume_parallax {
-		  background-image: url("paper-50x66.png");
-		  min-height: 20%; 
-		  
-		}*/
-		#down_parallax {
-			background-image: url("scroll_down_sunset.png");
-		}
-		#animation_parallax_1 {
-			background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
-		}
-		#photo_editing_parallax_1{
-			background-image: url("Multimedia Art Portfolio/2. Photo Editing/a. Studly - Antique.png");
-		}
-		#photo_editing_parallax_2{
-			background-image: url("Multimedia Art Portfolio/2. Photo Editing/b. Cute Baby Examples.png");
-		}
-		#album_covers_parallax_1{
-			background-image: url("Multimedia Art Portfolio/3. Album Covers/a. Dare Devil - The Blackout EP.png");
-		}
-		#album_covers_parallax_2{
-			background-image: url("Multimedia Art Portfolio/3. Album Covers/b. Dare Devil - Spacebound.jpg");
-		}
-		#album_covers_parallax_3{
-			background-image: url("Multimedia Art Portfolio/3. Album Covers/c. Dare Devil - Self-titled.jpg");
-		}
-		#album_covers_parallax_4{
-			background-image: url("Multimedia Art Portfolio/3. Album Covers/d. 99Ninja.png");
-		}
-		#surreal_parallax_1{
-			background-image: url("Multimedia Art Portfolio/4. Surreal Art/a. Dead Teddy.png");
-		}
-		#surreal_parallax_2{
-			background-image: url("Multimedia Art Portfolio/4. Surreal Art/b. Flying Eye with Orange on Horizon.png");
-		}
-		#surreal_parallax_3{
-			background-image: url("Multimedia Art Portfolio/4. Surreal Art/c. Dream Characters.png");
-		}
-		#surreal_parallax_4{
-			background-image: url("Multimedia Art Portfolio/4. Surreal Art/d. Daliesque.png");
-		}
-		#surreal_parallax_5{
-			background-image: url("Multimedia Art Portfolio/4. Surreal Art/e. Bubble Cartoon.png");
-		}
-		#glass_parallax_1{
-			background-image: url("Multimedia Art Portfolio/5. Glass Art/a. Glass Florette.png");
-		}
-		#glass_parallax_2{
-			background-image: url("Multimedia Art Portfolio/5. Glass Art/b. Spheroid.png");
-		}
-		#glass_parallax_3{
-			background-image: url("Multimedia Art Portfolio/5. Glass Art/c. Hemaglobin.png");
-		}
-		#glass_parallax_4{
-			background-image: url("Multimedia Art Portfolio/5. Glass Art/d. Floral Glass Orb.png");
-		}
-		#glass_parallax_5{
-			background-image: url("Multimedia Art Portfolio/5. Glass Art/e. Bangles.png");
-		}
-		#experimental_parallax_1{
-			background-image: url("Multimedia Art Portfolio/6. Experimental/a. Magic Eye - Autostereoscope Example - Moon.png");
-		}
-		#experimental_parallax_2{
-			background-image: url("Multimedia Art Portfolio/6. Experimental/b. Freeviewing Stereoscopic Image - Torus.png");
-		}
+/* Image urls for Parallax Scrolling */
+#down_parallax {
+	background-image: url("scroll_down_sunset.png");
+}
+#animation_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
+}
+#photo_editing_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/2. Photo Editing/a. Studly - Antique.png");
+}
+#photo_editing_parallax_2 {
+	background-image: url("Multimedia Art Portfolio/2. Photo Editing/b. Cute Baby Examples.png");
+}
+#album_covers_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/3. Album Covers/a. Dare Devil - The Blackout EP.png");
+}
+#album_covers_parallax_2 {
+	background-image: url("Multimedia Art Portfolio/3. Album Covers/b. Dare Devil - Spacebound.jpg");
+}
+#album_covers_parallax_3 {
+	background-image: url("Multimedia Art Portfolio/3. Album Covers/c. Dare Devil - Self-titled.jpg");
+}
+#album_covers_parallax_4 {
+	background-image: url("Multimedia Art Portfolio/3. Album Covers/d. 99Ninja.png");
+}
+#surreal_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/4. Surreal Art/a. Dead Teddy.png");
+}
+#surreal_parallax_2 {
+	background-image: url("Multimedia Art Portfolio/4. Surreal Art/b. Flying Eye with Orange on Horizon.png");
+}
+#surreal_parallax_3 {
+	background-image: url("Multimedia Art Portfolio/4. Surreal Art/c. Dream Characters.png");
+}
+#surreal_parallax_4 {
+	background-image: url("Multimedia Art Portfolio/4. Surreal Art/d. Daliesque.png");
+}
+#surreal_parallax_5 {
+	background-image: url("Multimedia Art Portfolio/4. Surreal Art/e. Bubble Cartoon.png");
+}
+#glass_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/5. Glass Art/a. Glass Florette.png");
+}
+#glass_parallax_2 {
+	background-image: url("Multimedia Art Portfolio/5. Glass Art/b. Spheroid.png");
+}
+#glass_parallax_3 {
+	background-image: url("Multimedia Art Portfolio/5. Glass Art/c. Hemaglobin.png");
+}
+#glass_parallax_4 {
+	background-image: url("Multimedia Art Portfolio/5. Glass Art/d. Floral Glass Orb.png");
+}
+#glass_parallax_5 {
+	background-image: url("Multimedia Art Portfolio/5. Glass Art/e. Bangles.png");
+}
+#experimental_parallax_1 {
+	background-image: url("Multimedia Art Portfolio/6. Experimental/a. Magic Eye - Autostereoscope Example - Moon.png");
+}
+#experimental_parallax_2 {
+	background-image: url("Multimedia Art Portfolio/6. Experimental/b. Freeviewing Stereoscopic Image - Torus.png");
+}
