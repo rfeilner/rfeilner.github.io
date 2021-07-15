@@ -13,7 +13,7 @@ body {
 	padding-left: 36px;
 	text-indent: -36px; 
 }
-.main_item {
+.main-item {
 	margin: 0;
 	padding-top: 24px;
 }
@@ -24,7 +24,7 @@ section {
 	margin: 2.5%;
 	padding: 2.5%;
 }
-.submain_details {
+.submain-details {
 	height: 1.25em;
 }
 .subsection {
@@ -33,7 +33,7 @@ section {
 .gpa {
 	float: left;
 }
-.credit_hours {
+.credit-hours {
 	float: right;
 	padding-left: 5%;
 }
@@ -43,34 +43,23 @@ div#education div span.date {
 #header {
 	text-align: center;
 }
-/*#my_address {
-	float: left;
-}
-#my_email {
-	padding-left: 5%;
-	text-align: center;
-}
-#my_phone {
-	float: right;
-	padding-left: 5%;
-}*/
-#name_logo img {
+#name-logo img {
 	width: 100%;
 }
 #objective {
 	text-align: center;
 }
-.icon_menu {
+.icon-menu {
 	margin: auto;
 }
-.menu_icon img {
+.menu-icon img {
 	background-color: black;
 	background-image: radial-gradient(black, #404040, black);
 	padding: 1%;
 	vertical-align: middle;
 	width: 7.5%;
 }
-.menu_icon img:hover {
+.menu-icon img:hover {
 	background-color: orange;
 	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
 	cursor: pointer;
@@ -114,14 +103,14 @@ div#education div span.date {
 	padding: 2%;
 	text-align: center; 
 }
-.youtube_video_container {
+.youtube-video-container {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
 	overflow: hidden;
 	max-width: 100%;
 }
-.youtube_video_container iframe {
+.youtube-video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -164,7 +153,7 @@ div#education div span.date {
 
 /*Parallax Scrolling*/
 /* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. --unsupported feature on iOS devices*/
-.no_parallax {
+.no-parallax {
 	display: block;
 	margin: auto;
 	max-width: 100%; 
@@ -189,7 +178,7 @@ div#education div span.date {
 }
 /* CSS for other than iOS devices */
 @supports not (-webkit-overflow-scrolling: touch) {
-	.no_parallax {
+	.no-parallax {
 		display: none;
 	}
 }
@@ -200,63 +189,63 @@ div#education div span.date {
 }
 
 /* Image urls for Parallax Scrolling */
-#down_parallax {
-	background-image: url("scroll_down_sunset.png");
+#down-parallax {
+	background-image: url("scroll-down-sunset.png");
 }
-#animation_parallax_1 {
+#animation-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
 }
-#photo_editing_parallax_1 {
+#photo-editing-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/2. Photo Editing/a. Studly - Antique.png");
 }
-#photo_editing_parallax_2 {
+#photo-editing-parallax-2 {
 	background-image: url("Multimedia Art Portfolio/2. Photo Editing/b. Cute Baby Examples.png");
 }
-#album_covers_parallax_1 {
+#album-covers-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/3. Album Covers/a. Dare Devil - The Blackout EP.png");
 }
-#album_covers_parallax_2 {
+#album-covers-parallax-2 {
 	background-image: url("Multimedia Art Portfolio/3. Album Covers/b. Dare Devil - Spacebound.jpg");
 }
-#album_covers_parallax_3 {
+#album-covers-parallax-3 {
 	background-image: url("Multimedia Art Portfolio/3. Album Covers/c. Dare Devil - Self-titled.jpg");
 }
-#album_covers_parallax_4 {
+#album-covers-parallax-4 {
 	background-image: url("Multimedia Art Portfolio/3. Album Covers/d. 99Ninja.png");
 }
-#surreal_parallax_1 {
+#surreal-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/4. Surreal Art/a. Dead Teddy.png");
 }
-#surreal_parallax_2 {
+#surreal-parallax-2 {
 	background-image: url("Multimedia Art Portfolio/4. Surreal Art/b. Flying Eye with Orange on Horizon.png");
 }
-#surreal_parallax_3 {
+#surreal-parallax-3 {
 	background-image: url("Multimedia Art Portfolio/4. Surreal Art/c. Dream Characters.png");
 }
-#surreal_parallax_4 {
+#surreal-parallax-4 {
 	background-image: url("Multimedia Art Portfolio/4. Surreal Art/d. Daliesque.png");
 }
-#surreal_parallax_5 {
+#surreal-parallax-5 {
 	background-image: url("Multimedia Art Portfolio/4. Surreal Art/e. Bubble Cartoon.png");
 }
-#glass_parallax_1 {
+#glass-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/5. Glass Art/a. Glass Florette.png");
 }
-#glass_parallax_2 {
+#glass-parallax-2 {
 	background-image: url("Multimedia Art Portfolio/5. Glass Art/b. Spheroid.png");
 }
-#glass_parallax_3 {
+#glass-parallax-3 {
 	background-image: url("Multimedia Art Portfolio/5. Glass Art/c. Hemaglobin.png");
 }
-#glass_parallax_4 {
+#glass-parallax-4 {
 	background-image: url("Multimedia Art Portfolio/5. Glass Art/d. Floral Glass Orb.png");
 }
-#glass_parallax_5 {
+#glass-parallax-5 {
 	background-image: url("Multimedia Art Portfolio/5. Glass Art/e. Bangles.png");
 }
-#experimental_parallax_1 {
+#experimental-parallax-1 {
 	background-image: url("Multimedia Art Portfolio/6. Experimental/a. Magic Eye - Autostereoscope Example - Moon.png");
 }
-#experimental_parallax_2 {
+#experimental-parallax-2 {
 	background-image: url("Multimedia Art Portfolio/6. Experimental/b. Freeviewing Stereoscopic Image - Torus.png");
 }
