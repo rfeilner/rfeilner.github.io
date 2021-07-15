@@ -44,6 +44,7 @@ div#education div span.date {
 	text-align: center;
 }
 #name-logo img {
+	height: auto;
 	width: 100%;
 }
 #objective {
@@ -165,9 +166,11 @@ div#education div span.date {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	height: auto;
 	min-height: 100%; 
 	/*Fix height 0 problem*/
 		height: 1600px;
+	width: auto;
 }
 
 /* CSS specific to iOS devices */ 
