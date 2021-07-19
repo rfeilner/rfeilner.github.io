@@ -194,7 +194,7 @@ div#education div span.date {
 
 /* Image urls for Parallax Scrolling */
 #down-parallax {
-	background-image: url("scroll-down.png");
+	background-image: url("images/scroll-down.png");
 }
 #animation-parallax-1 {
 	background-image: url("images/animation/pyromaniac-symphony.jpg");
