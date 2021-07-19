@@ -68,7 +68,8 @@ div#education div span.date {
 .thumbnail img {
 	background-color: black;
 	background-image: radial-gradient(black, #404040, black);
-	padding: 1.33%;
+	margin: 0.1667%;
+	padding: 1.1667%;
 	vertical-align: middle;
 	width: 30%;
 }
@@ -193,62 +194,62 @@ div#education div span.date {
 
 /* Image urls for Parallax Scrolling */
 #down-parallax {
-	background-image: url("scroll-down-sunset.png");
+	background-image: url("scroll-down.png");
 }
 #animation-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/1. 3D Animated Music Video Clips/a. Pyromaniac Symphony Image.png");
+	background-image: url("images/animation/pyromaniac-symphony.jpg");
 }
 #photo-editing-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/2. Photo Editing/a. Studly - Antique.png");
+	background-image: url("images/image-editing/studly.png");
 }
 #photo-editing-parallax-2 {
-	background-image: url("Multimedia Art Portfolio/2. Photo Editing/b. Cute Baby Examples.png");
+	background-image: url("images/image-editing/baby.png");
 }
 #album-covers-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/3. Album Covers/a. Dare Devil - The Blackout EP.png");
+	background-image: url("images/cover-art/dare-devil-blackout.jpg");
 }
 #album-covers-parallax-2 {
-	background-image: url("Multimedia Art Portfolio/3. Album Covers/b. Dare Devil - Spacebound.jpg");
+	background-image: url("images/cover-art/dare-devil-spacebound.jpg");
 }
 #album-covers-parallax-3 {
-	background-image: url("Multimedia Art Portfolio/3. Album Covers/c. Dare Devil - Self-titled.jpg");
+	background-image: url("images/cover-art/dare-devil-self-titled.jpg");
 }
 #album-covers-parallax-4 {
-	background-image: url("Multimedia Art Portfolio/3. Album Covers/d. 99Ninja.png");
+	background-image: url("images/cover-art/99Ninja.jpg");
 }
 #surreal-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/4. Surreal Art/a. Dead Teddy.png");
+	background-image: url("images/surreal/mortality.png");
 }
 #surreal-parallax-2 {
-	background-image: url("Multimedia Art Portfolio/4. Surreal Art/b. Flying Eye with Orange on Horizon.png");
+	background-image: url("images/surreal/horizons.png");
 }
 #surreal-parallax-3 {
-	background-image: url("Multimedia Art Portfolio/4. Surreal Art/c. Dream Characters.png");
+	background-image: url("images/surreal/dream-characters.png");
 }
 #surreal-parallax-4 {
-	background-image: url("Multimedia Art Portfolio/4. Surreal Art/d. Daliesque.png");
+	background-image: url("images/surreal/daliesque.png");
 }
 #surreal-parallax-5 {
-	background-image: url("Multimedia Art Portfolio/4. Surreal Art/e. Bubble Cartoon.png");
+	background-image: url("images/surreal/bub-lee.png");
 }
 #glass-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/5. Glass Art/a. Glass Florette.png");
+	background-image: url("images/reflections/serenity.png");
 }
 #glass-parallax-2 {
-	background-image: url("Multimedia Art Portfolio/5. Glass Art/b. Spheroid.png");
+	background-image: url("images/reflections/contemplative.png");
 }
 #glass-parallax-3 {
-	background-image: url("Multimedia Art Portfolio/5. Glass Art/c. Hemaglobin.png");
+	background-image: url("images/reflections/sanguine.png");
 }
 #glass-parallax-4 {
-	background-image: url("Multimedia Art Portfolio/5. Glass Art/d. Floral Glass Orb.png");
+	background-image: url("images/reflections/deep-within.png");
 }
 #glass-parallax-5 {
-	background-image: url("Multimedia Art Portfolio/5. Glass Art/e. Bangles.png");
+	background-image: url("images/reflections/flux.png");
 }
 #experimental-parallax-1 {
-	background-image: url("Multimedia Art Portfolio/6. Experimental/a. Magic Eye - Autostereoscope Example - Moon.png");
+	background-image: url("images/experimental/autostereoscope-moon.png");
 }
 #experimental-parallax-2 {
-	background-image: url("Multimedia Art Portfolio/6. Experimental/b. Freeviewing Stereoscopic Image - Torus.png");
+	background-image: url("images/experimental/stereoscopic-torus.png");
 }
