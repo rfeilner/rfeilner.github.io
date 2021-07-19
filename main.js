@@ -1,3 +1,14 @@
+// Adjust parallax scrolling height.
+adjustHeight = function( obj, newHeight ) {
+  $( obj ).height( newHeight )
+};
+$( document ).ready( function() {
+  adjustHeight( ".parallax", $( window ).height() );
+});
+$( window ).resize( function() {
+  adjustHeight( ".parallax", $( window ).height() );
+});
+
 // Change gallery thumbnail images upon hover/mouse-over
 //$.fn.thumbnail_hover_changer=function(element, image_mouseout, image_mouseover){
 //	$(document).ready(function(){
