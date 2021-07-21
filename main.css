@@ -4,6 +4,11 @@ body {
 	color: white;
 	margin: 0;
 }
+img { 
+	max-width: 100%;
+	height: auto;
+}
+
 /* Date fields in resume.html and cv.html */
 .date {
 	float: right;
