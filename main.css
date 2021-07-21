@@ -5,8 +5,10 @@ body {
 	margin: 0;
 }
 img { 
+	max-height: 100%;
 	max-width: 100%;
 	height: auto;
+	width: auto;
 }
 
 /* Date fields in resume.html and cv.html */
@@ -204,10 +206,9 @@ div#education div span.date {
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: auto;
+	max-height: 100%;
 	min-height: 100%; 
-	/* !!! May not be necessary any longer. Fixed with adjustHeight() in main.js !!! */
-	/*Fix height 0 problem*/
-		height: 1600px;
+	max-width: 100%;
 	width: auto;
 }
 
