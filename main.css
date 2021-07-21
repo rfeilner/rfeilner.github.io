@@ -1,58 +1,79 @@
+/* Default */
 body {
 	background-color: black;
+	color: white;
 	margin: 0;
 }
+/* Date fields in resume.html and cv.html */
 .date {
 	float: right;
 	padding-left: 5%;
 }
+/* Location fields in resume.html and cv.html */
 .location {
 	float: left;
 }
+/* Citation fields in resume.html and cv.html: Hanging indentation */
 .citation {
 	padding-left: 36px;
 	text-indent: -36px; 
 }
+/* Prominent topical item fields in resume.html and cv.html, often listed as unit subheadings */
 .main-item {
 	margin: 0;
 	padding-top: 24px;
 }
+/* All html sections (n.b. sectioning of resume), Header with logo (but not subheaders), Icon menu (top), Portfolio links (bottom), Resume links (bottom) */
 section, #header, .icon-menu, #portfolio, #resume {
-	background-color: rgba(244,244,256,0.975);
+	background-color: rgba(244,244,256,0.975); /* Very light slightly bluish white with a touch of transparency */
+	border-color: whitesmoke;
 	border-style: solid;
-	border-width: 5px; 
+	border-width: 5px;
+	color: black;
 	margin: 2.5%;
 	padding: 2.5%;
 }
+/* wraps .location and .date in #education  */
+/* !!! Examine consistency in the use of .submain-details across sections. !!!  */
 .submain-details {
 	height: 1.25em;
 }
+/* Independent units/items in each section pertaining to a unique role or experience within each section */
 .subsection {
 	margin-top: 12px;
 }
+/* Used in #education in resume.html and cv.html */
 .gpa {
 	float: left;
 }
+/* Used in #education in resume.html and cv.html */
 .credit-hours {
 	float: right;
 	padding-left: 5%;
 }
+/* Centers .date in #education while leaving the other dates right-adjusted in other sections in resume.html and cv.html */
 div#education div span.date {
 	text-align: center;
 }
+/* Heading titles for sections  */
+/* !!! .header and .main-item should be more appropriately labeled .heading and .subheading !!!  */
 #header {
 	text-align: center;
 }
+/* Logo image */
 #name-logo img {
 	height: auto;
 	width: 100%;
 }
+/* Used at the top of resume.html and cv.html to declare professional objectives. */
 #objective {
 	text-align: center;
 }
+/* Icon menu (container) at the top of each page */
 .icon-menu {
 	margin: auto;
 }
+/* Images in the icon menu at the top of each page */
 .menu-icon img {
 	background-color: black;
 	background-image: radial-gradient(black, #404040, black);
@@ -65,6 +86,7 @@ div#education div span.date {
 	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
 	cursor: pointer;
 }
+/* Images in the thumbnail menu at the bottom of index.html */
 .thumbnail img {
 	background-color: black;
 	background-image: radial-gradient(black, #404040, black);
@@ -78,9 +100,12 @@ div#education div span.date {
 	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
 	cursor: pointer;
 }
+/* !!! Use html and css to place a dark container with gallery titles over .menu-icon img and .thumbnail img that changes opacity upon hover !!! */
 /*#animation img:hover {
 	src: url("Gallery Images/animation - Pyromaniac Symphony Image-600x600-darkened.png");
 }*/
+/* Icons not in the icon menu */
+/* !!! Change label or css using :not to reflect that these are not menu icons. !!! */
 .icon img {
 	background-color: black;
 	background-image: radial-gradient(black, #404040, black);
@@ -92,12 +117,17 @@ div#education div span.date {
 	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
 	cursor: pointer;
 }
+/* Message about resume at the bottom of index.html */
+/* !!! Reorganize this. !!! */
 #resume a .message {
 	float: right;
 	padding: 0 5.5% 0 2%;
 	position: absolute;
 }
+/* Subheadings used in galleries */
+/* !!! Change to .gallery-subheading !!! */
 .subheader {
+	background-color: inherit;
 	border-style: solid none none none;
 	color: white;
 	font-size: 3em;
@@ -105,6 +135,7 @@ div#education div span.date {
 	padding: 2%;
 	text-align: center; 
 }
+/* Youtube video formatting */
 .youtube-video-container {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -152,8 +183,7 @@ div#education div span.date {
   z-index: 100000; /* Above WP toolbar. */
 }
 
-
-/*Parallax Scrolling*/
+/* ------------ Parallax Scrolling ------------ */
 /* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. --unsupported feature on iOS devices*/
 .no-parallax {
 	display: block;
@@ -162,6 +192,7 @@ div#education div span.date {
 	/*Fix height 0 problem*/
 		/*height: 50%; */
 }
+/* Elements used for parallax scrolling  */
 .parallax {
 	background-attachment: fixed;
 	background-position: center;
@@ -169,6 +200,7 @@ div#education div span.date {
 	background-size: contain;
 	height: auto;
 	min-height: 100%; 
+	/* !!! May not be necessary any longer. Fixed with adjustHeight() in main.js !!! */
 	/*Fix height 0 problem*/
 		height: 1600px;
 	width: auto;
@@ -187,12 +219,13 @@ div#education div span.date {
 	}
 }
 
+/* Spacer between headings and subheading */
 .spacer {
 	height: 2%;
 	background-color: white;
 }
 
-/* Image urls for Parallax Scrolling */
+/* ------------ Image urls for Parallax Scrolling ------------ */
 #down-parallax {
 	background-image: url("images/scroll-down.png");
 }
