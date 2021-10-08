@@ -7,14 +7,14 @@ body {
 	width: 100vw;
 }
 
-.container {
+.inner-container {
 	display: flex;
 	height: 100%;
 	overflow-y: scroll;
 	scroll-snap-type: both mandatory;
 	width: 100%;
 }
-.container section {
+.inner-container section {
 	align-items: center;
 	display: flex;
 	flex: none;
