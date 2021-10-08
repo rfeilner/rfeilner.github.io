@@ -1,0 +1,295 @@
+/* Default */
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+img { 
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/* Date fields in resume.html and cv.html */
+.date {
+	float: right;
+	padding-left: 5%;
+}
+/* Location fields in resume.html and cv.html */
+.location {
+	float: left;
+}
+/* Citation fields in resume.html and cv.html: Hanging indentation */
+.citation {
+	padding-left: 36px;
+	text-indent: -36px; 
+}
+/* Prominent topical item fields in resume.html and cv.html, often listed as unit subheadings */
+.main-item {
+	margin: 0;
+	padding-top: 24px;
+}
+/* All html sections (n.b. sectioning of resume), Header with logo (but not subheaders), Icon menu (top), Portfolio links (bottom), Resume links (bottom) */
+section, #header, .icon-menu, #portfolio, #resume {
+	background-color: rgba(244,244,256,0.975); /* Very light slightly bluish white with a touch of transparency */
+	border-color: whitesmoke;
+	border-style: solid;
+	border-width: 5px;
+	color: black;
+	margin: 2.5%;
+	padding: 2.5%;
+}
+/* wraps .location and .date in #education  */
+/* !!! Examine consistency in the use of .submain-details across sections. !!!  */
+.submain-details {
+	height: 1.25em;
+}
+/* Independent units/items in each section pertaining to a unique role or experience within each section */
+.subsection {
+	margin-top: 12px;
+}
+/* Used in #education in resume.html and cv.html */
+.gpa {
+	float: left;
+}
+/* Used in #education in resume.html and cv.html */
+.credit-hours {
+	float: right;
+	padding-left: 5%;
+}
+/* Centers .date in #education while leaving the other dates right-adjusted in other sections in resume.html and cv.html */
+div#education div span.date {
+	text-align: center;
+}
+/* Heading titles for sections  */
+/* !!! .header and .main-item should be more appropriately labeled .heading and .subheading !!!  */
+#header {
+	text-align: center;
+}
+/* Logo image */
+#name-logo img {
+	height: auto;
+	width: 100%;
+}
+/* Used at the top of resume.html and cv.html to declare professional objectives. */
+#objective {
+	text-align: center;
+}
+/* Icon menu (container) at the top of each page */
+.icon-menu {
+	margin: auto;
+}
+/* Images in the icon menu at the top of each page */
+.menu-icon img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	padding: 1%;
+	vertical-align: middle;
+	width: 7.5%;
+}
+.menu-icon img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+/* Images in the thumbnail menu at the bottom of index.html */
+.thumbnail img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	margin: 0.1667%;
+	padding: 1.1667%;
+	vertical-align: middle;
+	width: 30%;
+}
+.thumbnail img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+/* !!! Use html and css to place a dark container with gallery titles over .menu-icon img and .thumbnail img that changes opacity upon hover !!! */
+/*#animation img:hover {
+	src: url("Gallery Images/animation - Pyromaniac Symphony Image-600x600-darkened.png");
+}*/
+/* Icons not in the icon menu */
+/* !!! Change label or css using :not to reflect that these are not menu icons. !!! */
+.icon img {
+	background-color: black;
+	background-image: radial-gradient(black, #404040, black);
+	padding: 1.33%;
+	position: relative;
+}
+.icon img:hover {
+	background-color: orange;
+	background-image: radial-gradient(#ffa000, #ffd000, #ffa000);
+	cursor: pointer;
+}
+/* Message about resume at the bottom of index.html */
+/* !!! Reorganize this. !!! */
+#resume a .message {
+	float: right;
+	padding: 0 5.5% 0 2%;
+	position: absolute;
+}
+/* Subheadings used in galleries */
+/* !!! Change to .gallery-subheading !!! */
+.subheader {
+	background-color: inherit;
+	border-style: solid none none none;
+	color: white;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 3em;
+	margin: 0;
+	padding: 2%;
+	text-align: center; 
+}
+/* Youtube video formatting */
+.youtube-video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+.youtube-video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Accessibility */
+/* Wordpress Solution: https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/ */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+/* ------------ Parallax Scrolling ------------ */
+/* Fix iOS issue where parallax fixed background-attachments do not remain in a fixed position. --unsupported feature on iOS devices*/
+.no-parallax {
+	display: block;
+	margin: auto;
+	max-width: 100%; 
+	/*Fix height 0 problem*/
+		/*height: 50%; */
+}
+/* Elements used for parallax scrolling  */
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: auto;
+	max-height: 100%;
+	min-height: 100%; 
+	max-width: 100%;
+	width: auto;
+}
+
+/* CSS specific to iOS devices */ 
+@supports (-webkit-overflow-scrolling: touch) {
+	.parallax {
+		display: none;
+	}
+}
+/* CSS for other than iOS devices */
+@supports not (-webkit-overflow-scrolling: touch) {
+	.no-parallax {
+		display: none;
+	}
+}
+
+/* Spacer between headings and subheading */
+.spacer {
+	height: 2%;
+	background-color: white;
+}
+
+/* ------------ Image urls for Parallax Scrolling ------------ */
+#down-parallax {
+	background-image: url("images/scroll-down.png");
+}
+#animation-parallax-1 {
+	background-image: url("images/animation/pyromaniac-symphony.jpg");
+}
+#photo-editing-parallax-1 {
+	background-image: url("images/image-editing/studly.png");
+}
+#photo-editing-parallax-2 {
+	background-image: url("images/image-editing/baby.png");
+}
+#album-covers-parallax-1 {
+	background-image: url("images/cover-art/dare-devil-blackout.jpg");
+}
+#album-covers-parallax-2 {
+	background-image: url("images/cover-art/dare-devil-spacebound.jpg");
+}
+#album-covers-parallax-3 {
+	background-image: url("images/cover-art/dare-devil-self-titled.jpg");
+}
+#album-covers-parallax-4 {
+	background-image: url("images/cover-art/99ninja.jpg");
+}
+#surreal-parallax-1 {
+	background-image: url("images/surreal/mortality.png");
+}
+#surreal-parallax-2 {
+	background-image: url("images/surreal/horizons.png");
+}
+#surreal-parallax-3 {
+	background-image: url("images/surreal/dream-characters.png");
+}
+#surreal-parallax-4 {
+	background-image: url("images/surreal/daliesque.png");
+}
+#surreal-parallax-5 {
+	background-image: url("images/surreal/bub-lee.png");
+}
+#glass-parallax-1 {
+	background-image: url("images/reflections/serenity.png");
+}
+#glass-parallax-2 {
+	background-image: url("images/reflections/contemplative.png");
+}
+#glass-parallax-3 {
+	background-image: url("images/reflections/sanguine.png");
+}
+#glass-parallax-4 {
+	background-image: url("images/reflections/deep-within.png");
+}
+#glass-parallax-5 {
+	background-image: url("images/reflections/flux.png");
+}
+#experimental-parallax-1 {
+	background-image: url("images/experimental/autostereoscope-moon.png");
+}
+#experimental-parallax-2 {
+	background-image: url("images/experimental/stereoscopic-torus.png");
+}
