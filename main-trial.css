@@ -11,7 +11,7 @@ body {
 	display: flex;
 	height: 100%;
 	overflow-y: scroll;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: both mandatory;
 	width: 100%;
 }
 .container section {
