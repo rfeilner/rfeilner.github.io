@@ -51,6 +51,7 @@ section, #header, .icon-menu, #portfolio, #resume {
 .inner-container {
 	display: flex;
 	height: 100%;
+	margin: 0;
 	overflow-y: scroll;
 	scroll-snap-type: both mandatory;
 	width: 100%;
@@ -62,7 +63,8 @@ section, #header, .icon-menu, #portfolio, #resume {
 	flex-wrap: wrap;
 	height: 100vh;
 	justify-content: center;
-	scroll-snap-align: start;
+	margin: 0;
+	scroll-snap-align: center;
 	width: 100vw;
 }
 
