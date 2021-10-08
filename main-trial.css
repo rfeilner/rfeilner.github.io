@@ -7,22 +7,21 @@ body {
 	width: 100vw;
 }
 
-container {
+.container {
 	display: flex;
 	height: 100%;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 	width: 100%;
-	
-	section {
-		align-items: center;
-		display: flex;
-		flex: none;
-		height: 100vh;
-		justify-content: center;
-		scroll-snap-align: start;
-		width: 100vw;
-	}
+}
+.container section {
+	align-items: center;
+	display: flex;
+	flex: none;
+	height: 100vh;
+	justify-content: center;
+	scroll-snap-align: start;
+	width: 100vw;
 }
 
 img { 
