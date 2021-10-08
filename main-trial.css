@@ -2,7 +2,9 @@
 body {
 	background-color: black;
 	color: white;
+	height: 100vw;
 	margin: 0;
+	width: 100vw;
 }
 img { 
 	max-height: 100%;
