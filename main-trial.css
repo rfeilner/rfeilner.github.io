@@ -7,22 +7,7 @@ body {
 	width: 100vw;
 }
 
-.inner-container {
-	display: flex;
-	height: 100%;
-	overflow-y: scroll;
-	scroll-snap-type: both mandatory;
-	width: 100%;
-}
-.inner-container section {
-	align-items: center;
-	display: flex;
-	flex: none;
-	height: 100vh;
-	justify-content: center;
-	scroll-snap-align: start;
-	width: 100vw;
-}
+
 
 img { 
 	max-height: 100%;
@@ -60,6 +45,30 @@ section, #header, .icon-menu, #portfolio, #resume {
 	margin: 2.5%;
 	padding: 2.5%;
 }
+
+
+
+.inner-container {
+	display: flex;
+	height: 100%;
+	overflow-y: scroll;
+	scroll-snap-type: both mandatory;
+	width: 100%;
+}
+.inner-container section {
+	align-items: center;
+	display: flex;
+	flex: none;
+	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: center;
+	scroll-snap-align: start;
+	width: 100vw;
+}
+
+
+
+
 /* wraps .location and .date in #education  */
 /* !!! Examine consistency in the use of .submain-details across sections. !!!  */
 .submain-details {
