@@ -51,6 +51,7 @@ $( window ).resize( function() {
 
 var pos = 0;
 $(window).bind('mousewheel DOMMouseScroll', function(event) {
+  alert("!");
   if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
     pos = pos + 50;
   } else {
