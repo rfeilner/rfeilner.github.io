@@ -11,6 +11,10 @@ img {
 	width: auto;
 }
 
+ul {
+	margin-top: 24; //For columnar spacing
+}
+
 /* Date fields in resume.html and cv.html */
 .date {
 	float: right;
