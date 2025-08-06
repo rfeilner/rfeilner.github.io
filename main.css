@@ -11,9 +11,9 @@ img {
 	width: auto;
 }
 
-ul {
-	margin-top: 24; //For columnar spacing
-}
+/*ul {
+	margin-top: 24; 
+}*\
 
 /* Date fields in resume.html and cv.html */
 .date {
